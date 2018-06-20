@@ -1,0 +1,7 @@
+axelerant.json_representation_node:
+  path: '/page_json/{api_key}/{nid}'
+  defaults:
+    _controller: 'Drupal\axelerant\Controller\NodeJsonRepresentation::content'
+    _title: 'Node Json Data Representation'
+  requirements:
+    _custom_access: '\Drupal\axelerant\Controller\CustomNodeAccess::access'

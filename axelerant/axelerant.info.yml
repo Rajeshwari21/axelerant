@@ -1,0 +1,5 @@
+name: Axelerant code test
+description: Altering Existing Site Information and Adding Api Key to get the node datas.
+core: '8.x'
+type: module
+package: custom
